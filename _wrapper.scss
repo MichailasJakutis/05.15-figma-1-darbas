@@ -1,0 +1,387 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+    & .header-nav {
+        & .header-ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28px;
+            list-style: none;
+
+            & li {
+                & a {
+                    text-decoration: none;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 100%;
+                    color: #555555;
+
+                }
+
+                &:last-child a {
+                    color: #FF3998;
+                }
+
+
+            }
+        }
+    }
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+
+    & .hero-text {
+        width: 50%;
+        padding-top: 100px;
+
+        & span {
+
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FF3998;
+        }
+
+        & .h1 {
+
+            font-weight: 900;
+            font-size: 96px;
+            line-height: 116px;
+            color: #111111;
+        }
+
+        & p {
+
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #555555;
+            padding-right: 130px;
+
+        }
+
+     
+    }
+    & .hero-img{
+        width: 50%;
+    background: url(graphic-hero.svg);
+    background-position: center;
+    background-size: 101%;
+    background-repeat: no-repeat;
+
+    }
+
+}
+
+.background {
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    & .h2 {
+        padding: 154px 0 0 64px;
+
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        display: flex;
+        align-items: flex-end;
+        color: #111111;
+    }
+
+    & p {
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #111111;
+        padding-left: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+.press {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 126px;
+    margin-bottom: 126px;
+}
+
+.showcase {
+    & h2 {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        display: flex;
+        align-items: flex-end;
+
+        /* Dark 1 */
+
+        color: #111111;
+    }
+
+    & p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #555555;
+
+        & a {
+            color: #555555;
+        }
+    }
+
+    & .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 120px;
+
+        .card-item {
+            background-color: #EEEEEE;
+            border-radius: 16px;
+
+            & .card-info-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding: 24px;
+
+                & .card-info {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    
+
+                    & .item-series {
+
+                        font-weight: 500;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        color: #FF8139;
+                    }
+
+                    & .item-name {
+                        padding: 12px 0;
+                    }
+
+                    & .item-number {
+
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+
+                    & .item-top-bid {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        /* identical to box height, or 12px */
+
+                        text-align: right;
+                        text-transform: uppercase;
+
+                        /* Dark 3 */
+
+                        color: #777777;
+                    }
+
+                    & .item-price {
+                        padding: 12px 0;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        /* identical to box height, or 20px */
+
+                        text-align: right;
+
+                        /* Dark 1 */
+
+                        color: #111111;
+
+                        &:before {
+                            content: url(eth.png);
+                            padding: 8px;
+                        }
+
+                    }
+
+                    & .item-day-left {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 100%;
+                        /* identical to box height, or 18px */
+
+                        text-align: right;
+
+                        /* Dark 3 */
+
+                        color: #777777;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-upsell-wrapper {
+    display: flex;
+    flex-wrap: no-wrap;
+    border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
+
+    padding-top: 120px;
+
+    & .footer-upsell {
+        padding-bottom: 120px;
+
+        & span {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            /* Pink */
+
+            color: #FF3998;
+
+        }
+
+        & h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 56px;
+            line-height: 68px;
+            /* identical to box height */
+            margin: 24px 0;
+
+            /* Dark 1 */
+
+            color: #111111;
+        }
+
+        & p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            /* or 30px */
+            margin-bottom: 40px;
+            padding-right: 110px;
+            /* Dark 2 */
+
+            color: #555555;
+        }
+
+        
+    }
+
+    & img {
+        padding-right: 301px;
+        padding-left: 202px;
+        display: block;
+    }
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+
+    & .footer-left {
+        margin-right: 427px;
+
+        & .footer-logo {
+            margin-top: 120px;
+            margin-bottom: 30px;
+        }
+
+        & div {
+            & span {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 100%;
+                /* identical to box height, or 20px */
+                /* Dark 2 */
+
+                color: #555555;
+            }
+
+            & .footer-icons {
+                margin-top: 30px;
+                display: flex;
+                gap: 18px;
+            }
+        }
+    }
+
+    & .footer-right {
+        width: 50%;
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        & .about-flex {
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+
+            & span {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+
+                /* Dark 2 */
+
+                color: #555555;
+            }
+
+            & a {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 100%;
+                /* or 20px */
+                text-decoration: none;
+
+                /* Dark 2 */
+
+                color: #555555;
+            }
+
+        }
+    }
+}
