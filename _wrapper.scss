@@ -247,12 +247,13 @@
 .footer-upsell-wrapper {
     display: flex;
     flex-wrap: no-wrap;
+    align-items: center;
     border-top: 2px solid #EEEEEE;
     border-bottom: 2px solid #EEEEEE;
-    padding-top: 120px;
+    height: 554px;
 
     & .footer-upsell {
-        padding-bottom: 120px;
+        
 
         & span {
             font-family: 'Inter';
@@ -301,13 +302,12 @@
     }
 
     & .footer-upsell-img {
-        padding-right: 301px;
-        padding-left: 202px;
         background-image: url(green-big.svg);
         background-repeat: no-repeat;
-        background-size: 31%;
-        background-position: 100px 0px;
+        background-size: auto;
+        background-position: bottom;
         width: 50%;
+        height: 554px;
     }
 }
 
