@@ -71,13 +71,14 @@
 
         }
 
-     
+
     }
-    & .hero-img{
+
+    & .hero-img {
         width: 50%;
-    background: url(graphic-hero.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+        background: url(graphic-hero.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
 
     }
 
@@ -163,7 +164,7 @@
                     display: flex;
                     flex-wrap: wrap;
                     flex-direction: column;
-                    
+
 
                     & .item-series {
 
@@ -296,16 +297,16 @@
             color: #555555;
         }
 
-        
+
     }
 
     & .footer-upsell-img {
         padding-right: 301px;
         padding-left: 202px;
-        background-image: url(green-big.svg);   
-        background-repeat: no-repeat;    
+        background-image: url(green-big.svg);
+        background-repeat: no-repeat;
         background-size: 31%;
-        background-position: 100px 0px; 
+        background-position: 100px 0px;
         width: 50%;
     }
 }
@@ -314,11 +315,13 @@
     display: flex;
     flex-wrap: no-wrap;
     justify-content: space-between;
+    align-items: flex-end;
+    height: 284px;
 
     & .footer-left {
 
         & .footer-logo {
-            margin-top: 120px;
+
             margin-bottom: 30px;
         }
 
@@ -345,7 +348,7 @@
 
     & .footer-right {
         width: 50%;
-        margin-top: 120px;
+
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
