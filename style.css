@@ -57,8 +57,7 @@
 .hero .hero-img {
   width: 50%;
   background: url(graphic-hero.svg);
-  background-position: center;
-  background-size: 101%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
