@@ -29,6 +29,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 1000px) {
+  .hero.pr {
+    padding-right: 0;
+  }
+}
 .hero .hero-text {
   width: 50%;
   padding-top: 100px;

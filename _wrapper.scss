@@ -39,6 +39,15 @@
 .hero {
     display: flex;
     flex-wrap: wrap;
+    @include responsive.lg{
+    }
+    &.pr{
+        @include responsive.lg{
+          
+            padding-right: 0;
+        }
+
+    }
 
     & .hero-text {
         width: 50%;
@@ -85,6 +94,7 @@
         background-repeat: no-repeat;
         @include responsive.lg{
             width: 34%;
+            
         }
 
     }
