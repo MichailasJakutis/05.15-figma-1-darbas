@@ -1,3 +1,4 @@
+@use 'responsive';
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +43,9 @@
     & .hero-text {
         width: 50%;
         padding-top: 100px;
+        @include responsive.lg{
+            width: 64%;
+        }
 
         & span {
 
@@ -79,6 +83,9 @@
         background: url(graphic-hero.svg);
         background-size: cover;
         background-repeat: no-repeat;
+        @include responsive.lg{
+            width: 34%;
+        }
 
     }
 
