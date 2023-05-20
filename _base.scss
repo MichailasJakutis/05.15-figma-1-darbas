@@ -1,3 +1,4 @@
+@use 'responsive';
 *,
 *::before,
 *::after {
@@ -7,18 +8,23 @@
 body {
     margin: 0;
 }
-.pl{
-    padding-left: 80px;
-}
-.pr{
-    padding-right: 80px;
-}
+// .pl{
+//     padding-left: 80px;
+// }
+// .pr{
+//     padding-right: 80px;
+// }
 .container {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
+    padding: 0 80px;
+    @include responsive.lg{
+          
+        padding-right: 0;
+    }
 }
 
 .main-info {
