@@ -133,7 +133,12 @@
   height: 680px;
   align-content: flex-start;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
+  .showcase .card-wrapper {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1100px) {
   .showcase .card-wrapper .last-card {
     visibility: hidden;
   }

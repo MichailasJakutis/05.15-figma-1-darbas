@@ -169,9 +169,12 @@
         justify-content: space-between;
         height: 680px;
         align-content: flex-start;
+        @include responsive.xl{
+            justify-content: space-around;
+        }
        
         & .last-card{
-            @include responsive.lg{
+            @include responsive.xl{
                 visibility: hidden ;
             }
         }
